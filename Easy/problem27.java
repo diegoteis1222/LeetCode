@@ -20,6 +20,7 @@ public class problem27 {
      * @param nums Array de numeros dado
      * @param val  valor a eliminar
      * @return la cantidad de veces eliminado el numero
+     * @see https://leetcode.com/problems/remove-element/
      */
     public static int removeElement(int[] nums, int val) {
         int cont = 0;
