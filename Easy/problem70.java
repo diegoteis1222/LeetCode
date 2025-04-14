@@ -16,8 +16,4 @@ public class problem70 {
         //TODO pensar bien como hacer esta mierda
         return 0;
     }
-
-    public static void main(String[] args) {
-        System.out.println(climbStairs(6));
-    }
 }

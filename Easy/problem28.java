@@ -18,9 +18,4 @@ public class problem28 {
 
         return -1;
     }
-
-    public static void main(String[] args) {
-
-        System.out.println(strStr("sadbutsad", "sad"));
-    }
 }

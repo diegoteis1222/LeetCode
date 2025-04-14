@@ -36,8 +36,4 @@ public class problem66 {
         //TODO esto no sirve con numeros gigantes desgraciadamente, hay que arreglarlo :(
         //TODO reacerlo con BigInteger
     }
-    public static void main(String[] args) {
-        int[] s = {9,8,7,6,5,4,3,2,1,0};
-        System.out.println(plusOne(s));
-    }
 }
