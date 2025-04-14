@@ -51,7 +51,7 @@ class Solution {
         printList(head); // Debería imprimir: 1 -> 2 -> 3 -> null
     }
 
-    // Para usar listas
+    // Para usar ListNode
     static class ListNode {
         int val;
         ListNode next;
@@ -63,7 +63,7 @@ class Solution {
         }
     }
 
-    // Para mostrar las listas
+    // Para mostrar un ListNode
     public static void printList(ListNode head) {
         ListNode current = head;
         while (current != null) {
