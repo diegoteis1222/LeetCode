@@ -13,7 +13,11 @@ public class problem70 {
      * @see https://leetcode.com/problems/climbing-stairs/
      */
     public static int climbStairs(int n) {
-        //TODO pensar bien como hacer esta mierda
+
         return 0;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(climbStairs(3));
     }
 }

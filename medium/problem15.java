@@ -7,26 +7,23 @@ import java.util.List;
 public class problem15 {
 
     static public List<List<Integer>> threeSum(int[] nums) {
-        Arrays.sort(nums); 
-    
+        Arrays.sort(nums);
+
         List<List<Integer>> motherList = new ArrayList<>();
-    
+
         for (int i = 0; i < nums.length - 2; i++) {
-            if (i > 0 && nums[i] == nums[i - 1]) continue;
-    
-            for (int j = i + 1; j < nums.length - 1; j++) {
-                if (j > i + 1 && nums[j] == nums[j - 1]) continue;
-    
-                for (int h = j + 1; h < nums.length; h++) {
-                    if (h > j + 1 && nums[h] == nums[h - 1]) continue;
-    
-                    if (nums[i] + nums[j] + nums[h] == 0) {
-                        motherList.add(Arrays.asList(nums[i], nums[j], nums[h]));
-                    }
+
+            for (int j = 0; j < nums.length - 1; j++) {
+
+                if (nums[i] + nums[j] + nums[j] == 0) {
+
+                    motherList.add(Arrays.asList(nums[i], nums[j], nums[j + 1]));
+                    
                 }
+
             }
         }
-    
+
         return motherList;
     }
 
@@ -36,3 +33,5 @@ public class problem15 {
 
     }
 }
+
+// motherList.add(Arrays.asList(nums[i], nums[j], nums[h]));
