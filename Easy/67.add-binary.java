@@ -1,16 +1,18 @@
 package Easy;
+/*
+ * @lc app=leetcode id=67 lang=java
+ *
+ * [67] Add Binary
+ */
 
 import java.math.BigInteger;
 
-/**
- * Given two binary strings a and b, return their sum as a binary string.
- */
-public class problem67 {
+// @lc code=start
+class Solution {
     /**
      * @param a numero en forma string 1
      * @param b numero en forma string 2
      * @return la suma de los dos numeros en binario
-     * @see https://leetcode.com/problems/add-binary/description/
      */
     public static String addBinary(String a, String b) {
         /**
@@ -31,3 +33,5 @@ public class problem67 {
         return sum.toString(2);
     }
 }
+// @lc code=end
+
