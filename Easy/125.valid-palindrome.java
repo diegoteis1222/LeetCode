@@ -10,7 +10,6 @@ class Solution {
     /**
      * @param s string dado
      * @return true si es un palindromo, false si no lo es
-     * @see https://leetcode.com/problems/valid-palindrome/description/
      */
     static public boolean isPalindrome(String s) {
 
