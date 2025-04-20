@@ -7,6 +7,11 @@ package Easy;
 
 // @lc code=start
 class Solution {
+
+    /**
+     * @param n numero dado para contar sus bits
+     * @return un array con el numero de bits de cada numero hasta llegar al indicado
+     */
     public int[] countBits(int n) {
 
         int[] bin = new int[n + 1]; // creamos nuevo array

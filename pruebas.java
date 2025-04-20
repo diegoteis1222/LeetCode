@@ -19,16 +19,4 @@ public class pruebas {
 
     }
 
-    static public int hammingWeight(int n) {
-        
-        String paco = Integer.toBinaryString(n);
-
-        System.out.println(paco);
-        return 0;
-    }
-
-    public static void main(String[] args) {
-        hammingWeight(11);
-    }
-
 }

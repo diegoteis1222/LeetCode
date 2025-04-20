@@ -7,6 +7,11 @@ package Easy;
 
 // @lc code=start
 class Solution {
+
+    /**
+     * @param n numero a comprobar si es feo
+     * @return true si es feo, false si no lo es
+     */
     public boolean isUgly(int n) {
 
         if (n <= 0) 

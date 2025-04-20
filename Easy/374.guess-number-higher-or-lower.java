@@ -36,7 +36,7 @@ class Solution {
     /**
      * Este metodo usa binary shearch
      * @param n numero que le damos
-     * @return // devuelve el numero si lo adivinamos
+     * @return devuelve el numero si lo adivinamos
      */
     public int guessNumber(int n) {
 

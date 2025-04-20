@@ -7,6 +7,11 @@ package Easy;
 
 // @lc code=start
 class Solution {
+
+    /**
+     * @param prices array con los precios dado
+     * @return cual sería la ganacia si compramos el dia mas barato y vendemos el mas caro
+     */
     static public int maxProfit(int[] prices) {
 
         int lower = prices[0];
