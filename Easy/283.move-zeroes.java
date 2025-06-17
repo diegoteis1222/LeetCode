@@ -8,17 +8,16 @@ package Easy;
 // @lc code=start
 class Solution {
     public void moveZeroes(int[] nums) {
+        int ini = 0;
 
-        for (int i = 0; i < nums.length; i++) {
-
-            if (nums[i] == 0) {
-
-                for (int j = 0; j < nums.length; j++) {
-                    
-                }
+        for (int fin = 0; fin < nums.length; fin++) {
+            if (nums[fin] != 0) {
+                int temp = nums[fin];
+                nums[fin] = nums[ini];
+                nums[ini] = temp;
+                ini++;
             }
         }
-
     }
 }
 // @lc code=end
