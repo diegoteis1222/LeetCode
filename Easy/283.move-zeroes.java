@@ -12,7 +12,7 @@ class Solution {
 
         for (int fin = 0; fin < nums.length; fin++) {
             if (nums[fin] != 0) {
-                int temp = nums[fin];
+                int temp = nums[fin]; 
                 nums[fin] = nums[ini];
                 nums[ini] = temp;
                 ini++;
